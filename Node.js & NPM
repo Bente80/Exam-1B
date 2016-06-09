@@ -1,0 +1,55 @@
+NPM:
+ * Er den præ-installeret pakke manager for node.js server platform.
+ * Er det største ecosystem af open source biblioteker i verden.
+ * Gør det lettere for programmører at udgive og dele kildekode
+ * Er designet til at forenkle installation, opdatering og afinstallation af biblioteker.
+ * Et online repository til udgivelse af open source node.js projekter.
+ * Bruges til at:
+            -installere node.js programmer fra npm registreringsdatabasen,
+            -organisering installation og
+            -styring af tredjeparts node.js programmer.
+
+Node.js:
+    *Er et open-source, cross-platform runtime miljø.
+        (Kører på flere platforme (Windows , Mac , Linux etc. ))
+
+    *Lavet til udvikling af server-side web-applikationer.
+
+    *Er ikke et JavaScript framework, men mange af sine grundlæggende moduler er skrevet i JavaScript.
+
+    *Kører på en Virtual Machine (Googles V8 motor)
+
+    *Har en event-driven arkitektur, der kan lave asynkrone non-blocking I/O kald.
+        -Disse designvalg optimere gennemløb og skalerbarhed i web-applikationer med mange input/output- operationer,
+        -samt for real -time webapplikationer (fx realtid kommunikationsprogrammer og browser spil).
+
+    *Opererer på en enkelt tråd, der ikke anvender blokerende I/O kald,
+        -gør det muligt at støtte titusinder af samtidige forbindelser uden at tråd indholdet skifter.
+
+
+    *Man skal inkludere pakker, før du kan bruge dem
+        - require i Node (require( 'net ' ))
+    *Du skal have pakker der ikke indgår i base installationen, før du kan bruge dem
+        -Node : Brug Nodes Package Manager - NPM
+
+Node.js er en platform bygget på Chromes JavaScript runtime for nemt at bygge hurtige, skalerbare netværk applikationer.
+Den benytter en event-driven, ikke-blokerende I/O model, der gør det let og effektivt, perfekt til data-intensive
+realtid applikationer, der kører på tværs af distribuerede enheder.
+
+Node, kombineret med en browser, en dokument DB (ex. MongoDB) og JSON tilbyder en Unified JavaScript Development Stack
+-JavaScript på Kundens side
+-JavaScript på server siden
+-JavaScript I databasen
+
+Node er perfekt til Single Page Apps
+
+Mere npm:
+· Et online repository til udgivelse open source node.js projekter ;
+· En kommando - line værktøj til at interagere med denne arkiv , der hjælper i:
+    -pakke installation
+    -version ledelse
+    - Og afhængighed ledelse
+
+Links:   https://en.wikipedia.org/wiki/Node.js
+         https://www.youtube.com/watch?v=FVdH9YcB3Dg
+
